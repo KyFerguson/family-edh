@@ -1,0 +1,56 @@
+{"data":
+  [
+    {
+        "id": 1,
+        "date": "2025-03-15",
+        "players":[
+            {
+                "name": "Bren",
+                "commander": "Raphael, Fiendish Savior",
+                "result": "Win"
+            },
+            {
+                "name": "Ray",
+                "commander": "Alela, Artful Provocateur",
+                "result": "Loss"
+            },
+            {
+                "name": "Ky",
+                "commander": "Kwain, Itinerant Meddler",
+                "result": "Loss"
+            }
+        ]    
+    },
+    {
+        "id": 2,
+        "date": "2025-06-07",
+        "players":[
+            {
+                "name": "Bren",
+                "commander": "Rendmaw, Creaking Nest",
+                "result": "Win"
+            },
+            {
+                "name": "Ray",
+                "commander": "Arwen, Mortal Queen",
+                "result": "Loss"
+            },
+            {
+                "name": "Ky",
+                "commander": "Kwain, Itinerant Meddler",
+                "result": "Loss"
+            },
+            {
+                "name": "Adam",
+                "commander": "Breya, Etherium Shaper",
+                "result": "Loss"
+            },
+            {
+                "name": "Ronnie",
+                "commander": "Magda, Brazen Outlaw",
+                "result": "Loss"
+            }
+        ]    
+    }
+  ]
+}

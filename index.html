@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .banner {
+            background-color: #000000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-size: smaller;
+        }
+        .scoreboard {
+            margin: 2%;
+            background-color: #fff;
+            padding: 2%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .scoreboard h1 {
+            margin: 0% 0% 5%;
+        }
+        .score {
+            font-size: 2em;
+            margin: 2% 0;
+        }
+        
+        .gap {
+            width: 2%;
+            height: 2%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="banner">BFF EDH Leaderboard</div>
+    <div class="d-flex flex-column flex-md-row">
+        <div class="scoreboard">
+            <h1>Pilot Leaderboard</h1>
+            <div id="pilot-leaderboard"></div>
+        </div> 
+    <div class="gap"></div>
+        <div class="scoreboard">
+            <h1>Commander Leaderboard</h1>
+            <div id="commander-leaderboard"></div>
+        <script src="leaderboard.js"></script>
+</body>
+</html>
